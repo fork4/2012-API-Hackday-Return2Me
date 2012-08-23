@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather action="http://return2me.elasticbeanstalk.com/fetch" numDigits="5" timeout="10" finishOnKey="#">
+        <Say>Return 2 Me Demo</Say>
+        <Say>Enter the extension for your representative. Press pound to continue.</Say>
+    </Gather>
+    <!-- If customer doesn't input anything, prompt and try again. -->
+    <Say>Sorry, I didn't get your response.</Say>
+    <Redirect>http://return2me.elasticbeanstalk.com/ivr/incoming.xml</Redirect>
+</Response>

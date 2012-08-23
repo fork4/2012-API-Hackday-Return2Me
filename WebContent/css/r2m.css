@@ -1,0 +1,41 @@
+body {
+	background: rgb(88,108,138);
+}
+
+.section {
+	background: #FFF;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 20px;
+	
+}
+
+table {
+border-collapse:collapse;
+}
+
+table, td, th {
+border:none;
+}
+td {
+	padding: 10px 7px 7px 10px;
+}
+
+.table-header {
+	background: #FF7C00;
+	cellspacing: 0;
+	border: none;
+}
+
+.odd {
+	background: #D1E0FF;
+	cellspacing: 0;
+	border: none;
+}
+
+.even {
+	background: #91B5FF;
+	cellspacing: 0;
+	border: none;
+}
